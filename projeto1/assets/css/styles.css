@@ -7,6 +7,10 @@
     --secondary-color: #555;
 }
 
+.secondary-color {
+    color: #555;
+}
+
 a, i {
     transition: .5s;
     text-decoration: none;
@@ -35,10 +39,54 @@ a, i {
 #header{
     text-align: center;
     padding: 20px;
-    border-bottom: 1px solic #CCC;
+    border-bottom: 1px solid #CCC;
 }
 
 #header p {
     margin-bottom: 0;
 }
 
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 40px ;
+    margin-right: 15px;
+}
+
+/* NAVBAR */
+
+#navbar {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#navbar a {
+    width: 80px;
+    color: #444;
+}
+
+#navbar a:hover{
+    color: #C1B696
+}
+
+/* MAIN IMAGE */
+
+.main-image{
+    height: 400px;
+    background-image: url('../img/g_1.jpg');
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info{
+    background-color: #FFF;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+
+}
